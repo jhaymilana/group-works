@@ -103,6 +103,12 @@ button {
   background-color: var(--app-blue-hover);
 }
 
+.forget {
+  color: var(--app-white);
+  margin-top: 5px;
+  font-size: 12px;
+}
+
 .incorrect {
   color: #ff3333;
   font-size: 12px;
