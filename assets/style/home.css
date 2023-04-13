@@ -15,7 +15,7 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 :root {
-  --app-blue: #3c57ff;
+  --app-blue: #576dff;
   --app-blue-hover: #364ee6;
   --app-white: #E4E6EB;
   --app-text-gray: #B0B3B8;
@@ -42,7 +42,7 @@ header {
 }
 
 .title h1 {
-  color: var(--app-white);
+  color: var(--app-blue);
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0.5px;

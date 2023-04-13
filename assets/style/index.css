@@ -99,6 +99,12 @@ button {
   letter-spacing: 0.4px;
 }
 
-.loginbtn:hover {
+.login-btn:hover {
   background-color: var(--app-blue-hover);
+}
+
+.incorrect {
+  color: #ff3333;
+  font-size: 12px;
+  margin-top: 5px;
 }
