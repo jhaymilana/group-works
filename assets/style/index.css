@@ -15,12 +15,12 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 :root {
-  --app-blue: #3c57ff;
+  --app-blue: #576dff;
   --app-blue-hover: #364ee6;
   --app-white: #E4E6EB;
   --app-text-gray: #B0B3B8;
   --app-hover: #3A3B3C;
-  --app-background-color: #202124;
+  --app-background-color: #161614;
   --app-main-container: #303134;
   --app-header-footer: #171717;
 }
@@ -29,3 +29,76 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Body
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+body {
+  background-color: var(--app-background-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100%;
+  height: 100vh;
+}
+
+.image {
+  width: 100%;
+  background-image: url('../image/GroupWorks.jpg');
+}
+
+.login {
+  margin-top: 35%;
+  margin-left: 28%;
+  width: 60%;
+}
+
+h1 {
+  color: var(--app-blue);
+  font-size: 65px;
+}
+
+h2 {
+  color: var(--app-white);
+  font-size: 35px;
+}
+
+input[type=text] {
+  height: 40px;
+  width: 70%;
+  font-size: 18px;
+  padding: 5px 5px 5px 10px;
+  margin-top: 15px;
+  margin-right: 100px;
+  border-radius: 5px;
+  color: var(--app-white);
+  background-color: var(--app-main-container);
+}
+
+.signup {
+  margin-left: 140px;
+  color: var(--app-blue);
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.signup:hover {
+  border: 1px solid var(--app-blue-hover);
+  color: var(--app-blue-hover);
+}
+
+button {
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 5px;
+  height: 35px;
+  width: 85px;
+  border-radius: 3px;
+  color: var(--app-white);
+  background-color: var(--app-blue);
+  letter-spacing: 0.4px;
+}
+
+.loginbtn:hover {
+  background-color: var(--app-blue-hover);
+}
