@@ -20,9 +20,11 @@
   --app-white: #E4E6EB;
   --app-text-gray: #B0B3B8;
   --app-hover: #3A3B3C;
-  --app-background-color: #12191A;
-  --app-header-footer: #242526;
+  --app-background-color: #202124;
+  --app-main-container: #303134;
+  --app-header-footer: #171717;
 }
+
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /* Body

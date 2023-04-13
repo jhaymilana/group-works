@@ -6,7 +6,7 @@
     <meta name="author" content="Jayvee Milana">
     <meta name="desceription" content="Home">
     <meta name="keywords" content="html, css, web development, seo">
-    <title>Group Works - Home</title>
+    <title>GroupWorks - Home</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/home.css" media="all">
     <link 
@@ -20,13 +20,45 @@
   </head>
   <body>
     <header>
-
+      <div class='flex'>
+        <div class='title'>
+          <h1>GroupWorks</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>Friends</a></li>
+            <li><a href='#'>Groups</a></li>
+            <li><a href='#'>Settings</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-
+      <div class="grid">
+        <div class="user box"></div>
+        <div class="feed box">
+          <div class="forum">
+            <div class="inputs">
+              <textarea class="text"></textarea>
+              <label for="file">
+                <i class="fa-solid fa-image fa-xl" style="color: #9e9e9e;"></i>
+              </label>
+              <input 
+                type="file" 
+                class="image" 
+                id="file" 
+                style="display: none;">
+              <input type="submit" class="post" value="Post">
+            </div>
+            <div class="storage">
+            </div>
+          </div>
+        </div>
+        <div class="social box"></div>
+      </div>
     </main>
     <footer>
-      
     </footer>
   </body>
 </html>
