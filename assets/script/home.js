@@ -38,4 +38,28 @@ post.addEventListener('click', function() {
   }
 });
 
-// 
+// RandomUser API
+
+const social = document.querySelector('.social');
+const url = `https://randomuser.me/api/?results=10`;
+const options = {
+  method: 'GET',
+  mode: 'cors',
+};
+
+async function getUser() {
+  try {
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`${response.statusText}: ${response.status} error`);
+    }
+
+    const data = await response.json();
+    console.log(data);
+  } catch(error) {
+    console.log(error.message);
+  }
+}
+
+getUser();

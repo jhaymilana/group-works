@@ -145,6 +145,7 @@ textarea {
   padding: 10px;
   width: 100%;
 }
+
 .post:hover {
   background-color: var(--app-blue-hover);
 }
