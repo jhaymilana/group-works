@@ -21,7 +21,9 @@ loginBtn.addEventListener('click', () => {
       passwordTxt.value === localStorage.getItem('password')) {
         window.location.href = `./home.html`;
       } else {
-        incorrect.innerHTML = 'Incorrect Username/Password';
+        incorrect.innerHTML = 'Incorrect Username/Password.';
+        usernameTxt.value = '';
+        passwordTxt.value = '';
       }
 });
 
