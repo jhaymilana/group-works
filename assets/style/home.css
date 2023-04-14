@@ -175,7 +175,31 @@ textarea {
 .image{
   width: 150px;
   height: 150px;
-  background-color: var(--app-background-color);
+  background-image: url('../image/portrait.jpg');
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px black;
+}
+
+.buttons {
+  margin-top: 90px;
+}
+
+.buttons button{
+  width: 100%;
+  font-size: 30px;
+  background-color: transparent;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: var(--app-white);
+  border-bottom: solid 2px var(--app-background-color);
+}
+
+button {
+  height: 60px;
+}
+
+.buttons button:hover {
+  font-size: 40px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
